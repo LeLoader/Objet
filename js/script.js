@@ -6,7 +6,7 @@ let student={
         city:"Paris",
 }
 
-let res;
+let res = 0;
 
 Object.values(student).forEach((values)=> {
     res += values.length;
@@ -18,5 +18,5 @@ if (res%2==0){
     console.log("pair");
 }
 else{
-    console.log("unpair");
+    console.log("impair");
 }
